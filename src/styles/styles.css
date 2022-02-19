@@ -1,0 +1,70 @@
+:root {
+        /* baabkubwa colors */
+        --bk-primary:#1B3764;
+        --bk-secondary: #F3B81E;
+        --bk-accent: #F47721;
+        --bk-tertiary: #F78E1E;
+        --bk-gray: #B8B5B5;
+        --bk-danger:  #FC6A6A;
+}
+
+/* baabkubwa color classes */
+.bk-white{
+    color:white;
+  }
+  
+  
+  
+  .bk-gray{
+    color: var(--bk-gray)
+  }
+  
+  .bk-primary{
+    color: var(--bk-primary)
+  }
+  
+  .bk-secondary{
+    color: var(--bk-secondary)
+  }
+  
+  .bk-danger{
+    color: var(--bk-danger)
+  }
+  
+  .bk-accent{
+    color: var(--bk-accent)
+  }
+  
+  .bk-tertiary-2{
+    color: var(--bk-tertiary)
+  }
+  
+  
+  .bk-white-bg{
+    background-color:white !important;
+  }
+  
+  .bk-gray-bg{
+    background-color: var(--bk-gray)
+  }
+  
+  .bk-primary-bg{
+    background-color: var(--bk-primary)
+  }
+  
+  .bk-secondary-bg{
+    background-color: var(--bk-secondary)
+  }
+  
+  .bk-danger-bg{
+    background-color: var(--bk-danger)
+  }
+  
+  .bk-accent-bg{
+    background-color: var(--bk-accent)
+  }
+  
+  .bk-tertiary-bg{
+    background-color: var(--bk-tertiary)
+  }
+  
