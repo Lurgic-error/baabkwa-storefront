@@ -44,7 +44,7 @@
 
                                 <div class="col-6 mb-3">
                                     <label class="form-label">Phone</label>
-                                    <input type="text" value="+998" class="form-control" placeholder="">
+                                    <input type="text" value="+255" class="form-control" placeholder="">
                                 </div> <!-- col end.// -->
 
                                 <div class="col-6 mb-3">
