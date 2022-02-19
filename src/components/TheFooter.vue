@@ -41,7 +41,7 @@
                             Mon-Fri)</small>
                         <nav class="mt-3"> <a class="btn btn-icon btn-light" title="Facebook" target="_blank"
                                 href="#"><i class="bi bi-facebook"></i></a> <a class="btn btn-icon btn-light"
-                                title="Instagram" target="_blank" href="#"><i class="fab fa-instagram"></i></a> <a
+                                title="Instagram" target="_blank" href="#"><i class="bi bi-instagram"></i></a> <a
                                 class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#"><i
                                     class="bi bi-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter"
                                 target="_blank" href="#"><i class="bi bi-twitter"></i></a> </nav>
