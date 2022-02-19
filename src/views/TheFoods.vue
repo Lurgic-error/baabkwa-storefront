@@ -25,40 +25,40 @@
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/hamburger.svg">
                                 </span>
-                                <span class="text"> Fast food </span> </a> </div> <!-- col.// -->
+                                <span class="text"> Fast food </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/steak.svg">
-                                </span> <span class="text"> Steaks </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Steaks </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/chicken.svg">
-                                </span> <span class="text"> Chickens </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Chickens </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/pizza.svg">
-                                </span> <span class="text"> Pizzas </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Pizzas </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/cake.svg">
-                                </span> <span class="text"> Sweets </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Sweets </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/porridge.svg">
                                 </span>
-                                <span class="text"> National food </span> </a> </div> <!-- col.// -->
+                                <span class="text"> National food </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/cup.svg">
-                                </span> <span class="text"> Cold drink </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Cold drink </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/chicken.svg">
-                                </span> <span class="text"> Grills </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Grills </span> </a> </div> 
                         <div class="col-xl col-lg-2 col-md-3 col-4"> <a href="#" class="item-link text-center"> <span
                                     class="icon icon-lg mb-2 rounded-3"> <img width="42" height="42"
                                         src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/food-svg-gray/apple.svg">
-                                </span> <span class="text"> Fruits </span> </a> </div> <!-- col.// -->
+                                </span> <span class="text"> Fruits </span> </a> </div> 
                     </nav>
                 </div> <!-- card-body.// -->
             </div>
