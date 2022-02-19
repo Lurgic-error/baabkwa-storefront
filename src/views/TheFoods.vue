@@ -68,7 +68,7 @@
             <FoodList />
         </section>
 
-        <section class="pt-5">
+        <section class="py-5">
             <FoodBannerCard/>
         </section>
     </div>

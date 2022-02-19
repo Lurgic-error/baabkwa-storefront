@@ -50,6 +50,13 @@ const router = createRouter({
           name: "TheWishlist",
           component: () => import("../views/TheWishlist.vue"),
         },
+
+        // The Checkout
+        {
+          path: "checkout",
+          name: "TheCheckout",
+          component: () => import("../views/TheCheckout.vue"),
+        },
       ],
     },
   ],
