@@ -1,4 +1,18 @@
 <template>
+
+<section class="bg-primary padding-y-sm">
+<div class="container">
+
+  <ol class="breadcrumb ondark mb-0">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Profile</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Account main</li>
+  </ol>
+
+</div> <!-- container //  -->
+</section>
+
+
     <section class="padding-y bg-white">
         <div class="container">
 

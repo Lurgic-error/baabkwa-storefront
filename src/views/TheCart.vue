@@ -139,6 +139,88 @@
                 </div>
             </div>
         </section>
+
+        <section class="padding-y border-top">
+<div class="container">
+	<header class="section-heading">
+		<h4 class="section-title">Recommended items</h4>
+	</header> 
+
+	<div class="row">
+		<div class="col-lg-3 col-sm-6 col-12">
+			<figure class="card card-product-grid">
+				<div class="img-wrap">
+					<span class="topbar">
+						<a href="#" class="float-end"><i class="fa fa-lg fa-heart"></i></a>
+						<span class="badge bg-danger"> New </span>
+					</span>
+					<a href="#"><img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/7.jpg"></a>
+				</div>
+				<figcaption class="info-wrap border-top">
+					<a href="#" class="title">Gaming Headset with Mic</a>
+						<div class="price-wrap mb-3">
+							<strong class="price">$18.95</strong>
+							<del class="price-old">$24.99</del>
+						</div> <!-- price-wrap.// -->
+						<a href="#" class="btn btn-outline-primary w-100">Add to cart</a>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div> <!-- col.// -->
+		<div class="col-lg-3 col-sm-6 col-12">
+			<figure class="card card-product-grid">
+				<div class="img-wrap"> 
+					<span class="topbar">
+						<a href="#" class="float-end"><i class="fa fa-lg fa-heart"></i></a>
+					</span>
+					<a href="#"><img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.jpg"></a>
+				</div>
+				<figcaption class="info-wrap border-top">
+					<a href="#" class="title">Apple Watch Series 1 Sport </a>
+					<div class="price-wrap mb-3">
+						<strong class="price">Tsh 240,000</strong>
+					</div> <!-- price-wrap.// -->
+					<a href="#" class="btn btn-outline-primary w-100">Add to cart</a>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div> <!-- col.// -->
+		<div class="col-lg-3 col-sm-6 col-12">
+			<figure class="card card-product-grid">
+				<div class="img-wrap"> 
+					<span class="topbar">
+						<a href="#" class="float-end"><i class="fa fa-lg fa-heart"></i></a>
+					</span>
+					<a href="#"><img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/9.jpg"></a>
+				</div>
+				<figcaption class="info-wrap border-top">
+					<a href="#" class="title"> Men's Denim Jeans Shorts  </a>
+					<div class="price-wrap mb-3">
+						<strong class="price">Tsh 30,000</strong>
+					</div> <!-- price-wrap.// -->
+					<a href="#" class="btn btn-outline-primary w-100">Add to cart</a>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div> <!-- col.// -->
+		<div class="col-lg-3 col-sm-6 col-12">
+			<figure class="card card-product-grid">
+				<div class="img-wrap"> 
+					<span class="topbar">
+						<a href="#" class="float-end"><i class="fa fa-lg fa-heart"></i></a>
+					</span>
+					<a href="#"><img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/10.jpg"></a>
+				</div>
+				<figcaption class="info-wrap border-top">
+					<a href="#" class="title text-truncate">Mens T-shirt Cotton Base Layer Slim fit </a>
+					<div class="price-wrap mb-3">
+						<strong class="price">Tsh 25,000</strong>
+					</div> <!-- price-wrap.// -->
+					<a href="#" class="btn btn-outline-primary w-100">Add to cart</a>
+				</figcaption>
+			</figure> <!-- card // -->
+		</div> <!-- col.// -->
+	</div> <!-- row.// -->
+	
+</div> <!-- container .//  -->
+</section>
     </div>
     <TheFooter  class="bg-light"/>
 </template>
