@@ -57,6 +57,19 @@ const router = createRouter({
           name: "TheCheckout",
           component: () => import("../views/TheCheckout.vue"),
         },
+
+        // UserProfile
+        {
+          path: "user-profile",
+          component: RouteView,
+          children: [
+            {
+              path: "",
+              name: "UserProfile",
+              component: () => import("../views/UserProfile.vue"),
+            },
+          ],
+        },
       ],
     },
   ],

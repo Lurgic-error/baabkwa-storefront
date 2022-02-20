@@ -68,3 +68,33 @@
     background-color: var(--bk-tertiary)
   }
   
+  .content-body {
+    flex: 1 1 auto;
+    padding: 1.88rem;
+}
+
+.itemside {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.itemside .aside {
+  position: relative;
+  flex-shrink: 0;
+}
+
+
+.icon-md {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+}
+.icon-xs, .icon-sm, .icon-md, .icon-lg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
