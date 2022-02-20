@@ -1,8 +1,26 @@
 <template>
     <div class="">
 
+        <section class="bg-white shadow">
+            <div class="container">
+                <div class="row align-items-center" style="min-height: 520px">
+                    <div class="col-lg-6 col-xl-6 col-xxl-5">
+                        <article class="my-5">
+                            <h1 class="display-4">Best products &amp; <br> brands in our store</h1>
+                            <p class="lead">Trendy Products, Factory Prices, Excellent Service</p> <a href="#"
+                                class="btn btn-primary btn-lg"> Discover </a> <a href="#" class="btn btn-light btn-lg">
+                                Learn more </a>
+                        </article>
+                    </div> <!-- col.// -->
+                    <div class="col-lg-6 col-xl-6 col-xxl-7"> <img
+                            src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/banners/intro-item2.jpg" class="mw-100"> </div>
+                    <!-- col.// -->
+                </div> <!-- row.// -->
+            </div> <!-- container end.// -->
+        </section>
+
         <!-- Section Intro -->
-        <section class="section-intro pt-3">
+        <section class="section-intro py-5 bg-light">
             <div class="container">
 
                 <div class="row gx-3">
@@ -37,7 +55,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/sofa.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/sofa.svg">
                             </span>
                             <span class="text"> Interior items </span>
                         </a>
@@ -45,7 +64,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/ball.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/ball.svg">
                             </span>
                             <span class="text"> Sport and travel </span>
                         </a>
@@ -53,7 +73,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/diamond.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/diamond.svg">
                             </span>
                             <span class="text"> Jewellery </span>
                         </a>
@@ -61,7 +82,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/watch.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/watch.svg">
                             </span>
                             <span class="text"> Accessories </span>
                         </a>
@@ -69,7 +91,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/car.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/car.svg">
                             </span>
                             <span class="text"> Automobiles </span>
                         </a>
@@ -77,7 +100,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/homeitem.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/homeitem.svg">
                             </span>
                             <span class="text"> Home items </span>
                         </a>
@@ -85,7 +109,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/music.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/music.svg">
                             </span>
                             <span class="text"> Musical items </span>
                         </a>
@@ -93,7 +118,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/book.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/book.svg">
                             </span>
                             <span class="text"> Books, reading </span>
                         </a>
@@ -101,7 +127,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/toy.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/toy.svg">
                             </span>
                             <span class="text"> Kid's toys </span>
                         </a>
@@ -109,7 +136,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/animal.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/animal.svg">
                             </span>
                             <span class="text"> Pet items </span>
                         </a>
@@ -117,7 +145,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/shirt.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/shirt.svg">
                             </span>
                             <span class="text"> Men’s clothing </span>
                         </a>
@@ -125,7 +154,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/shoe-man.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/shoe-man.svg">
                             </span>
                             <span class="text"> Men’s clothing </span>
                         </a>
@@ -133,7 +163,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/phone.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/phone.svg">
                             </span>
                             <span class="text"> Smartphones </span>
                         </a>
@@ -141,7 +172,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/fix.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/fix.svg">
                             </span>
                             <span class="text"> Tools </span>
                         </a>
@@ -149,7 +181,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/education.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/education.svg">
                             </span>
                             <span class="text"> Education </span>
                         </a>
@@ -157,7 +190,8 @@
                     <div class="col">
                         <a href="#" class="item-link text-center">
                             <span class="icon mb-2 icon-md rounded">
-                                <img width="32" height="32" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/warehouse.svg">
+                                <img width="32" height="32"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/icons/category-svg-blue/warehouse.svg">
                             </span>
                             <span class="text"> Other items </span>
                         </a>
@@ -179,7 +213,8 @@
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
                                 <span class="topbar"> <span class="badge bg-danger"> New </span> </span>
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/1.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/1.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -194,7 +229,8 @@
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
                                 <span class="topbar"> <span class="badge bg-warning"> Offer </span> </span>
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/2.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/2.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -208,7 +244,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/3.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/3.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -222,7 +259,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/4.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/4.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -236,7 +274,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/5.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/5.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -250,7 +289,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -264,7 +304,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/7.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/7.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -278,7 +319,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -320,7 +362,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/9.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/9.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -334,7 +377,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/10.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/10.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -348,7 +392,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/11.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/11.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
@@ -362,7 +407,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <figure class="card-product-grid">
                             <a href="#" class="img-wrap rounded bg-gray-light">
-                                <img height="250" class="mix-blend-multiply" src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/12.jpg">
+                                <img height="250" class="mix-blend-multiply"
+                                    src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/12.jpg">
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
