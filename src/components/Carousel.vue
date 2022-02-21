@@ -1,5 +1,13 @@
 <template>
-  <MDBCarousel v-model="carousel1" :items="items1" fade interval="2000" />
+        <MDBCarousel
+        v-model="carousel1"
+        :items="items1"
+        :controls=false
+        captionsClass = "carousel-caption d-none d-md-block captions"
+        fade
+        interval="2000"
+        />
+
 </template>
 
 <script setup>
@@ -29,8 +37,10 @@ const items1 = [
 const carousel1 = ref(0);
 </script>
 
-<style>
-.carousel-item {
-  max-height: 55vh;
-}
+<style scoped>
+    .carousel-item{
+        max-height: 55vh;
+    }
+
 </style>
+

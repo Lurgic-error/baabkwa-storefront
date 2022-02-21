@@ -40,12 +40,12 @@
 
                 <div class="row gx-3">
                     <main class="col-lg-9">
-                        <article class="card-banner p-5 bg-primary" style="height: 350px">
+                        <article class="card-banner p-5 bk-primary-bg" style="height: 350px">
                             <div style="max-width: 500px">
                                 <h2 class="text-white">Great products with <br> best deals </h2>
                                 <p class="text-white">No matter how far along you are in your sophistication as an
                                     amateur astronomer, there is always one.</p>
-                                <a href="#" class="btn btn-warning"> View more </a>
+                                <a href="#" class="btn bk-accent-bg bk-white"> View more </a>
                             </div>
                         </article>
                     </main>
@@ -233,7 +233,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">GoPro action camera 4K</a>
                                 <small class="text-muted">Model: X-200</small>
                             </figcaption>
@@ -249,7 +249,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$590.00</strong> <!-- price.// -->
+                                <strong class="price">Tsh 590.00</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Canon EOS professional</a>
                                 <small class="text-muted">Capacity: 128GB</small>
                             </figcaption>
@@ -264,7 +264,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -279,7 +279,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$1099.00</strong> <!-- price.// -->
+                                <strong class="price">Tsh 1099.00</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Apple iPhone 13 Pro max</a>
                                 <small class="text-muted">Color: Black, Memory: 128GB</small>
                             </figcaption>
@@ -294,7 +294,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -309,7 +309,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -324,7 +324,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -339,7 +339,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Material: Jeans</small>
                             </figcaption>
@@ -353,7 +353,7 @@
         <!-- Section Feature -->
         <section>
             <div class="container">
-                <article class="card p-4" style="background-color: var(--bs-primary)">
+                <article class="card p-4 bk-primary-bg">
                     <div class="row align-items-center">
                         <div class="col">
                             <h4 class="mb-0 text-white">Best products and brands in store</h4>
@@ -382,7 +382,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$17.00</strong> <!-- price.// -->
+                                <strong class="price">Tsh 17.00</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Blue jeans shorts for men</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -397,7 +397,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$9.50</strong> <!-- price.// -->
+                                <strong class="price">Tsh 9.50</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Slim fit T-shirt for men</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -412,7 +412,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -427,7 +427,7 @@
                             </a>
                             <figcaption class="pt-2">
                                 <a href="#" class="float-end btn btn-light btn-icon"> <i class="bi bi-heart"></i> </a>
-                                <strong class="price">$29.95</strong> <!-- price.// -->
+                                <strong class="price">Tsh 29.95</strong> <!-- price.// -->
                                 <a href="#" class="title text-truncate">Modern product name here</a>
                                 <small class="text-muted">Sizes: S, M, XL</small>
                             </figcaption>
@@ -440,14 +440,14 @@
 
 
         <!-- Section Subscribe -->
-        <section class="padding-y-sm bg-gray-light">
+        <section class="padding-y-sm bk-primary-bg">
             <div class="container">
                 <div class="row gy-3 align-items-center">
                     <div class="col-md-4">
                         <form>
                             <div class="input-group">
                                 <input class="form-control" type="text" placeholder="Email">
-                                <button class="btn btn-light" type="submit"> Subscribe </button>
+                                <button class="btn btn-sm btn-light" type="submit"> Subscribe </button>
                             </div> <!-- input-group.// -->
                         </form>
                     </div>
@@ -471,7 +471,7 @@
 
 
     </div>
-    <TheFooter class="bg-light" style="background:#ced4da !important;" />
+    <TheFooter/>
 </template>
 
 <script setup>
