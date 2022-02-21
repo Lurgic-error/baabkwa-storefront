@@ -2,27 +2,26 @@
   <div class="hero-container container">
     <div class="row hero">
       <div class="col-3 left">
-        <TreeNav/>
+        <TreeNav />
       </div>
       <div class="col-9 right">
-        <Carousel/>
+        <Carousel />
       </div>
     </div>
   </div>
 
   <div class="listings-container">
-    <Listings/>
+    <Listings />
   </div>
 </template>
 
 <script setup>
-import TreeNav from "./TreeNav.vue"
-import Carousel from "./Carousel.vue"
-import Listings from "./Listings.vue"
+import TreeNav from "./TreeNav.vue";
+import Carousel from "./Carousel.vue";
+import Listings from "./Listings.vue";
 </script>
 
 <style scoped>
-
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -38,8 +37,8 @@ h3 {
   text-align: center;
 }
 
-.listings-container{
-  margin-top:5rem
+.listings-container {
+  margin-top: 5rem;
 }
 
 @media (min-width: 1024px) {

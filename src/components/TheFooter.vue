@@ -64,59 +64,59 @@
             </section>
         </div> <!-- container end.// -->
     </footer>
+
 </template>
 
 <script setup></script>
 
 <style scoped>
-    .section-footer {
-        box-shadow: 0 2px 10px rgb(51 51 51 / 10%);
-        position: relative;
-    }
+.section-footer {
+  box-shadow: 0 2px 10px rgb(51 51 51 / 10%);
+  position: relative;
+}
 
-    .section-footer .logo-footer {
-        max-height: 90px;
-    }
+.section-footer .logo-footer {
+  max-height: 90px;
+}
 
-    .section-footer .title {
-        margin-bottom: 10px;
-    }
+.section-footer .title {
+  margin-bottom: 10px;
+}
 
-    .list-icon,
-    .list-bullet,
-    .list-dots,
-    .list-check,
-    .list-menu {
-        list-style: none;
-        margin-left: 0;
-        padding-left: 0;
-    }
+.list-icon,
+.list-bullet,
+.list-dots,
+.list-check,
+.list-menu {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
 
+.list-icon li,
+.list-bullet li,
+.list-dots li,
+.list-check li,
+.list-menu li {
+  position: relative;
+  margin-bottom: 4px;
+}
 
-    .list-icon li,
-    .list-bullet li,
-    .list-dots li,
-    .list-check li,
-    .list-menu li {
-        position: relative;
-        margin-bottom: 4px;
-    }
+.list-menu li > a {
+  display: block;
+  color: #51585e;
+  text-decoration: none;
+}
 
-    .list-menu li>a {
-        display: block;
-        color: #51585e;
-        text-decoration: none;
-    }
+.btn-light {
+  background-color: #fff;
+  border-color: #dee2e6;
+  color: #212529;
+}
 
-    .btn-light {
-        background-color: #fff;
-        border-color: #dee2e6;
-        color: #212529;
-    }
-
-    .btn-icon {
-        width: 2.6rem;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+.btn-icon {
+  width: 2.6rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 </style>

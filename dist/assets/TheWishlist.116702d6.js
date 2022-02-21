@@ -1,0 +1,1 @@
+import{_ as e}from"./index.81a9472b.js";import{o as s,c as t,a as o}from"./vendor.57bdc1dd.js";const c={},_={class:"container the__view"},r=o("h1",null,"The Wishlist",-1),a=[r];function n(i,h){return s(),t("div",_,a)}var f=e(c,[["render",n]]);export{f as default};
