@@ -2,6 +2,8 @@
         <MDBCarousel
         v-model="carousel1"
         :items="items1"
+        :controls=false
+        captionsClass = "carousel-caption d-none d-md-block captions"
         fade
         interval="2000"
         />
@@ -37,8 +39,9 @@
     
 </script>
 
-<style>
+<style scoped>
     .carousel-item{
         max-height: 55vh;
     }
+
 </style>

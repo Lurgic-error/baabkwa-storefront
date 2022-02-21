@@ -66,7 +66,7 @@
                         </div> <!-- rating-wrap.// -->
 
                         <div class="mb-3">
-                            <var class="price h5">$75.00</var>
+                            <var class="price h5">Tsh 75.00</var>
                             <span class="text-muted">/per box</span>
                         </div>
 
@@ -245,7 +245,7 @@
                                 </a>
                                 <div class="info">
                                     <a href="#" class="title mb-1"> Rucksack Backpack Large <br> Line Mounts </a>
-                                    <strong class="price"> $38.90</strong> <!-- price.// -->
+                                    <strong class="price"> Tsh 38.90</strong> <!-- price.// -->
                                 </div>
                             </article>
 
@@ -255,7 +255,7 @@
                                 </a>
                                 <div class="info">
                                     <a href="#" class="title mb-1"> Summer New Men's Denim <br> Jeans Shorts </a>
-                                    <strong class="price"> $29.50</strong> <!-- price.// -->
+                                    <strong class="price"> Tsh 29.50</strong> <!-- price.// -->
                                 </div>
                             </article>
 
@@ -265,7 +265,7 @@
                                 </a>
                                 <div class="info">
                                     <a href="#" class="title mb-1"> T-shirts with multiple colors, for men and lady </a>
-                                    <strong class="price"> $120.00</strong> <!-- price.// -->
+                                    <strong class="price"> Tsh 120.00</strong> <!-- price.// -->
                                 </div>
                             </article>
 
@@ -275,7 +275,7 @@
                                 </a>
                                 <div class="info">
                                     <a href="#" class="title mb-1"> Blazer Suit Dress Jacket for Men, Blue color </a>
-                                    <strong class="price"> $339.90</strong> <!-- price.// -->
+                                    <strong class="price"> Tsh 339.90</strong> <!-- price.// -->
                                 </div>
                             </article>
 
