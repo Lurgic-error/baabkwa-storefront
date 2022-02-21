@@ -1,5 +1,20 @@
 <template>
     <div class="">
+        <!-- Section Hero -->
+        <section class="section-intro pt-3 mb-5">
+            <div class="container">
+
+                <div class="row gx-3">
+                    <main class="col-lg-3">
+                        <TreeNav/>
+                    </main>
+                    <aside class="col-lg-9">
+                        <Carousel/>
+                    </aside>
+                </div> <!-- row //end -->
+
+            </div> <!-- container end.// -->
+        </section>
 
         <!-- Section Intro -->
         <section class="section-intro pt-3">
@@ -418,6 +433,8 @@
     import ProductList from '../components/ProductList.vue';
     import ProductRecentlyViewed from '../components/ProductRecentlyViewed.vue';
     import TheFooter from '../components/TheFooter.vue';
+    import Carousel from '../components/Carousel.vue';
+    import TreeNav from '../components/TreeNav.vue';
 </script>
 
 <style scoped>
