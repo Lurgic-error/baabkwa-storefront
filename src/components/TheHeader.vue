@@ -1,9 +1,12 @@
 <template>
     <header class="the__header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+        <div class="card top-bar bk-primary-bg">
+            <p class="bk-white"><marquee behavior="" direction="">A <span class="bk-accent">marketing pitch</span> in one line goes here.</marquee></p>
+        </div>
+        <nav class="card navbar navbar-expand-lg navbar-light bg-light w-100">
             <div class="container-fluid d-flex justify-content-between w-100 the__flex">
                 <div class="navbar-brand">
-                    <img src="../assets/logo.svg" alt="baabkubwa logo" width="200">
+                    <img src="../assets/logo.svg" alt="baabkubwa logo" width="350">
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -13,7 +16,7 @@
 
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">
+                    <button class="btn bk-tertiary-bg bk-white" type="submit">
                         Search
                     </button>
                 </form>
@@ -22,36 +25,24 @@
                 </div> -->
                 <ul class="navbar-nav  mb-2 mb-lg-0 w-100 d-flex justify-content-end">
                     <li class="nav-item">
-                        <router-link ref="navLink" id="TheHome" :to="{ name:'TheHome'}" class="nav-link"  aria-current="page">Home</router-link>
+                        <router-link ref="navLink" id="TheHome" :to="{ name:'TheHome'}" class="nav-link"  aria-current="page"> <unicon name="estate" ></unicon> Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link ref="navLink" id="TheShops" :to="{ name:'TheShops'}" class="nav-link"  aria-current="page">Shops</router-link>
+                        <router-link ref="navLink" id="TheShops" :to="{ name:'TheShops'}" class="nav-link"  aria-current="page"> <unicon name="shop" ></unicon> Shops</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link ref="navLink" id="TheProducts" :to="{ name:'TheProducts'}" class="nav-link"  aria-current="page">Product</router-link>
+                        <router-link ref="navLink" id="TheProducts" :to="{ name:'TheProducts'}" class="nav-link"  aria-current="page"> <unicon name="shopping-bag" ></unicon> Products</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link ref="navLink" id="TheFoods" :to="{ name:'TheFoods'}" class="nav-link"  aria-current="page">Food</router-link>
+                        <router-link ref="navLink" id="TheFoods" :to="{ name:'TheFoods'}" class="nav-link"  aria-current="page"> <unicon name="restaurant"></unicon> Food </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link d-flex align-items-center justify-content-between" style="gap:.5rem"
-                            :to="{ name:'TheCart'}">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-cart" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                            </svg> Cart
-                        </router-link>
+                            :to="{ name:'TheCart'}"> <unicon name="shopping-cart"/> Cart</router-link>
                     </li>
 
                     <li class="nav-item">
-                        <router-link :to="{ name:'TheWishlist'}" class="nav-link d-flex align-items-center justify-content-between" style="gap:.5rem">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-heart" viewBox="0 0 16 16">
-                                <path
-                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-                            </svg> Wishlist
-                        </router-link>
+                        <router-link :to="{ name:'TheWishlist'}" class="nav-link d-flex align-items-center justify-content-between" style="gap:.5rem"> <unicon name="heart"/> Wishlist </router-link>
                     </li>
                 </ul>
             </div>
@@ -64,7 +55,7 @@
 
 </script>
 
-<style>
+<style scoped>
     .the__flex {
         display: flex;
         justify-content: baseline;
@@ -74,4 +65,13 @@
     .the__flex>* {
         flex: 1;
     }
+
+    .top-bar{
+      width:100%;
+      height:4rem;
+      border-radius: 0;
+      display: grid;
+      place-items:center;
+    }
+
 </style>
