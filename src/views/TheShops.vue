@@ -4,14 +4,15 @@
             <div class="container">
                 <!-- ============ COMPONENT BS CARD WITH IMG ============ -->
                 <div class="row gy-3">
+                    <h3 class="bk-primary">SPONSORED</h3>
                     <div class="col-lg-4 col-md-6">
                         <article class="card bg-dark"> <img
-                                src="https://bootstrap-ecommerce.com/https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/banners/banner1.jpg"
+                                src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/banners/banner1.jpg"
                                 height="160" class="card-img opacity">
                             <div class="card-img-overlay">
-                                <h5 class="mb-0 text-white">Apple Devices</h5>
-                                <p class="card-text text-white">This is a wider card with a text below</p> <a href="#"
-                                    class="btn btn-light">Discover</a>
+                                <h5 class="mb-0 text-white text-uppercase">Tunda Certified Apple Store</h5>
+                                <p class="card-text text-white">We are approved by apple to sell you genuine apple products and parts</p> <a href="#"
+                                    class="btn bk-secondary-bg bk-primary">Discover</a>
                             </div>
                         </article> <!-- card .// -->
                     </div> <!-- col.// -->
@@ -20,9 +21,9 @@
                                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/banners/banner2.jpg"
                                 height="160" class="card-img opacity">
                             <div class="card-img-overlay">
-                                <h5 class="mb-0 text-white">Apple Devices</h5>
-                                <p class="card-text text-white">This is a wider card with a text below</p> <a href="#"
-                                    class="btn btn-light">Discover</a>
+                                <h5 class="mb-0 text-white text-uppercase">Kipussah Audio Mine</h5>
+                                <p class="card-text text-white">For reliable supply of high fidelity sound equipment for professionals and enthusiasts!</p> <a href="#"
+                                    class="btn bk-secondary-bg bk-primary">Discover</a>
                             </div>
                         </article> <!-- card .// -->
                     </div> <!-- col.// -->
@@ -31,15 +32,16 @@
                                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/banners/banner3.jpg"
                                 height="160" class="card-img opacity">
                             <div class="card-img-overlay">
-                                <h5 class="mb-0 text-white">Apple Devices</h5>
-                                <p class="card-text text-white">This is a wider card with a text below</p> <a href="#"
-                                    class="btn btn-light">Discover</a>
+                                <h5 class="mb-0 text-white text-uppercase">G.O.A.T GAME</h5>
+                                <p class="card-text text-white">A store for gamers, by gamers. Gear, merch, peripherals...if you need it, we got it.</p> <a href="#"
+                                    class="btn bk-secondary-bg bk-primary">Discover</a>
                             </div>
                         </article> <!-- card .// -->
                     </div> <!-- col.// -->
                 </div> <!-- row.// -->
                 <!-- ============ COMPONENT BS CARD IMG END .// ============ --><br><br>
                 <div class="row gy-3">
+                    <h3 class="bk-primary">VIEW BY SHOPPING CATEGORY</h3>
                     <div class="col-lg-4 col-md-6">
                         <!-- ============ COMPONENT BANNER 1 ============ -->
                         <article class="card-banner"
@@ -47,7 +49,7 @@
                             <div class="card-body caption">
                                 <h5 class="card-title text-white">Men</h5>
                                 <p>No matter how far along you are in your sophistication as an amateur astronomer,
-                                    there is always one.</p> <a href="#" class="btn btn-primary"> View more </a>
+                                    there is always one.</p> <a href="#" class="btn bk-primary-bg bk-white"> View more </a>
                             </div>
                         </article> <!-- ============ COMPONENT BANNER 1 END .// ============ -->
                     </div> <!-- col.// -->
@@ -58,7 +60,7 @@
                             <div class="card-body caption">
                                 <h5 class="card-title text-white">Women</h5>
                                 <p>No matter how far along you are in your sophistication as an amateur astronomer,
-                                    there is always one.</p> <a href="#" class="btn btn-primary"> View more </a>
+                                    there is always one.</p> <a href="#" class="btn bk-primary-bg bk-white"> View more </a>
                             </div>
                         </article> <!-- ============ COMPONENT BANNER 2 END .// ============ -->
                     </div> <!-- col.// -->
@@ -69,12 +71,13 @@
                             <div class="card-img-overlay caption">
                                 <h5 class="card-title text-white">Kids</h5>
                                 <p>No matter how far along you are in your sophistication as an amateur astronomer,
-                                    there is always one.</p> <a href="#" class="btn btn-primary"> View more </a>
+                                    there is always one.</p> <a href="#" class="btn bk-primary-bg bk-white"> View more </a>
                             </div>
                         </article> <!-- ============ COMPONENT BANNER 3 END .// ============ -->
                     </div> <!-- col.// -->
                 </div> <!-- row.// --><br><br>
                 <div class="row gy-3">
+                    <h3 class="bk-primary">VIEW BY SHOPPING PRODUCT</h3>
                     <div class="col-lg-4 col-md-6">
                         <!-- ============ COMPONENT BANNER 4 ============ -->
                         <article class="card-banner"
@@ -108,6 +111,7 @@
                     </div> <!-- col.// -->
                 </div> <!-- row.// --><br><br>
                 <div class="row gy-3">
+                    <h3 class="bk-primary">YOU MIGHT BE INTERESTED IN</h3>
                     <div class="col-lg-8">
                         <!-- ============ COMPONENT BANNER 7 ============ -->
                         <div class="card-banner overlay-gradient"
@@ -170,7 +174,7 @@
                         </div> <!-- ================ COMPONENT ITEM BG END .// ================ -->
                     </div> <!-- col.// -->
                 </div> <!-- row.// --><br><br>
-                <article class="card p-4 bg-primary">
+                <article class="card p-4 bk-primary-bg">
                     <div class="row align-items-center">
                         <div class="col">
                             <h4 class="mb-0 text-white">Banner sample heading name</h4>
