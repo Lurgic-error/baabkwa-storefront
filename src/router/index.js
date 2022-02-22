@@ -75,7 +75,40 @@ const router = createRouter({
               name: "UserProfile",
               component: () => import("../views/UserProfile.vue"),
             },
+            {
+              path: "edit",
+              name: "UserEditProfile",
+              component: () => import("../views/UserEditProfile.vue"),
+            },
           ],
+        },
+
+        // The Login
+        {
+          path: "sign-in",
+          name: "TheLogin",
+          component: () => import("../views/TheLogin.vue"),
+        },
+
+        // TheRegistration
+        {
+          path: "sign-up",
+          name: "TheRegistration",
+          component: () => import("../views/TheRegistration.vue"),
+        },
+
+        // TheNotifications
+        {
+          path: "sign-up",
+          name: "TheNotifications",
+          component: () => import("../views/TheNotifications.vue"),
+        },
+
+        // TheOrders
+        {
+          path: "sign-up",
+          name: "TheOrders",
+          component: () => import("../views/TheOrders.vue"),
         },
       ],
     },
