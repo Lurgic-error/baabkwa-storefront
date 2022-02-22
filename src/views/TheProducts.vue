@@ -97,19 +97,26 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <span class="topbar">
                   <b class="badge bg-success"> Offer </b>
                 </span>
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/12.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate">Blue T-shirt for Men</a>
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Blue T-shirt for Men</router-link
+                >
                 <small class="text-muted">Sizes: S, M, XL</small>
                 <div class="price-wrap">
                   <span class="price">Tsh 33,000</span>
@@ -123,16 +130,23 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/11.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate">Warm Winter Jacket</a>
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Warm Winter Jacket</router-link
+                >
                 <small class="text-muted">Sizes: S, M, XL</small>
                 <div class="price">Tsh 40,000</div>
                 <!-- price-wrap.// -->
@@ -143,17 +157,22 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/10.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate"
-                  >Mens T-shirt Cotton Base</a
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Mens T-shirt Cotton Base</router-link
                 >
                 <small class="text-muted">Blue, White, Black</small>
                 <div class="price">Tsh 20,000</div>
@@ -165,17 +184,22 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/9.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate"
-                  >Men's Denim Shorts Jeans</a
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Men's Denim Shorts Jeans</router-link
                 >
                 <small class="text-muted">Blue, White, Black</small>
                 <div class="price">Tsh 25,000</div>
@@ -187,17 +211,22 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/5.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate"
-                  >Apple Watch Series 1 Sport Case 38mm Black</a
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Apple Watch Series 1 Sport Case 38mm Black</router-link
                 >
                 <small class="text-muted">5GB, 10GB, 24GB</small>
                 <div class="price">Tsh 250,000</div>
@@ -209,17 +238,22 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate"
-                  >Gaming Headset 32db Black built in mic</a
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Gaming Headset 32db Black built in mic</router-link
                 >
                 <small class="text-muted">Black, Blue, Green</small>
                 <div class="price">Tsh 250,000</div>
@@ -231,17 +265,22 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/7.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate"
-                  >Gaming Headset 32db Black built in mic</a
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Gaming Headset 32db Black built in mic</router-link
                 >
                 <small class="text-muted">Sizes: S, M, XL</small>
                 <div class="price">Tsh 200,000</div>
@@ -253,17 +292,22 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <figure class="card card-product-grid">
-              <a href="#" class="img-wrap">
+              <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
                 <img
                   src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.jpg"
                 />
-              </a>
+              </router-link>
               <figcaption class="info-wrap border-top">
-                <a href="#" class="float-end btn btn-light btn-icon">
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="float-end btn btn-light btn-icon"
+                >
                   <i class="bi bi-heart"></i>
-                </a>
-                <a href="#" class="title text-truncate"
-                  >Slim fit T-shirt for men</a
+                </router-link>
+                <router-link
+                  :to="{ name: 'ProductDetail' }"
+                  class="title text-truncate"
+                  >Slim fit T-shirt for men</router-link
                 >
                 <small class="text-muted">Sizes: S, M, XL</small>
                 <div class="price">Tsh 25,,000</div>
@@ -354,69 +398,69 @@
 
         <div class="row gy-3">
           <div class="col-lg-2 col-md-4 col-4">
-            <a href="#" class="img-wrap">
+            <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
               <img
                 height="200"
                 width="200"
                 class="img-thumbnail"
                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/1.jpg"
               />
-            </a>
+            </router-link>
           </div>
           <!-- col.// -->
           <div class="col-lg-2 col-md-4 col-4">
-            <a href="#" class="img-wrap">
+            <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
               <img
                 height="200"
                 width="200"
                 class="img-thumbnail"
                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/2.jpg"
               />
-            </a>
+            </router-link>
           </div>
           <!-- col.// -->
           <div class="col-lg-2 col-md-4 col-4">
-            <a href="#" class="img-wrap">
+            <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
               <img
                 height="200"
                 width="200"
                 class="img-thumbnail"
                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/3.jpg"
               />
-            </a>
+            </router-link>
           </div>
           <!-- col.// -->
           <div class="col-lg-2 col-md-4 col-4">
-            <a href="#" class="img-wrap">
+            <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
               <img
                 height="200"
                 width="200"
                 class="img-thumbnail"
                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/4.jpg"
               />
-            </a>
+            </router-link>
           </div>
           <!-- col.// -->
           <div class="col-lg-2 col-md-4 col-4">
-            <a href="#" class="img-wrap">
+            <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
               <img
                 height="200"
                 width="200"
                 class="img-thumbnail"
                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/5.jpg"
               />
-            </a>
+            </router-link>
           </div>
           <!-- col.// -->
           <div class="col-lg-2 col-md-4 col-4">
-            <a href="#" class="img-wrap">
+            <router-link :to="{ name: 'ProductDetail' }" class="img-wrap">
               <img
                 height="200"
                 width="200"
                 class="img-thumbnail"
                 src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.jpg"
               />
-            </a>
+            </router-link>
           </div>
           <!-- col.// -->
         </div>
@@ -517,8 +561,18 @@
         <p class="lead text-white">
           Trendy Products, Factory Prices, Excellent Service
         </p>
-        <a href="#" class="btn btn-light btn-lg"> Purchase now</a>
-        <a href="#" class="btn btn-warning btn-lg"> Learn more </a>
+        <router-link
+          :to="{ name: 'ProductDetail' }"
+          class="btn btn-light btn-lg"
+        >
+          Purchase now</router-link
+        >
+        <router-link
+          :to="{ name: 'ProductDetail' }"
+          class="btn btn-warning btn-lg"
+        >
+          Learn more
+        </router-link>
       </article>
     </div>
     <!-- container end.// -->
