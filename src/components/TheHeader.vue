@@ -27,7 +27,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <form class="d-flex">
+        <form class="d-flex d-sm-none d-md-block">
           <input
             class="form-control me-2"
             type="search"
@@ -41,7 +41,9 @@
         <!-- <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
 
                 </div> -->
-        <ul class="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-end">
+        <ul
+          class="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-end d-sm-none d-md-block"
+        >
           <li class="nav-item">
             <router-link
               ref="navLink"
@@ -130,5 +132,9 @@
   border-radius: 0;
   display: grid;
   place-items: center;
+}
+
+.d-sm-none {
+  display: none !important;
 }
 </style>

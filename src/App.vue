@@ -1,6 +1,6 @@
 <template>
   <div class="base__app">
-    <TheHeader/>
+    <TheOtherHeader />
     <router-view v-slot="{ Component }">
       <transition name="fade">
         <component :is="Component" :key="$route.path"></component>
@@ -10,6 +10,7 @@
 </template>
 
 <script setup>
-import TheHeader from './components/TheHeader.vue';</script>
+import TheOtherHeader from "./components/TheOtherHeader.vue";
+</script>
 
 <style></style>
