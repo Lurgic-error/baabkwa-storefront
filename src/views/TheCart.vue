@@ -159,8 +159,8 @@
 				<figcaption class="info-wrap border-top">
 					<a href="#" class="title">Gaming Headset with Mic</a>
 						<div class="price-wrap mb-3">
-							<strong class="price">$18.95</strong>
-							<del class="price-old">$24.99</del>
+							<strong class="price">Tsh 18.95</strong>
+							<del class="price-old">Tsh 24.99</del>
 						</div> <!-- price-wrap.// -->
 						<a href="#" class="btn btn-outline-primary w-100">Add to cart</a>
 				</figcaption>

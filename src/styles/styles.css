@@ -101,7 +101,15 @@
 
 
 /* OVERRIDES */
-
+/* header search form  */
 .form-control:not(:focus):hover, .form-select:not(:focus):hover {
   border-color: var(--bk-primary);
+}
+/* hero carousel captions  */
+.captions{
+  color:white;
+  background-color: rgba(27, 55, 100, 0.3);
+}
+.captions h5{
+  color:white;
 }
