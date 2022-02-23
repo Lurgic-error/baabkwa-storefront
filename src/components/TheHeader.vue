@@ -26,17 +26,17 @@
         </button>
         </div>
 
-        <form class="w-100 d-none d-md-flex flex-md-row justify-content-md-start justify-content-lg-center">
+        <form class="w-100 mx-4 d-none d-md-flex flex-md-row justify-content-md-between justify-content-lg-between border rounded-pill">
           <div>
             <input
-            class="form-control me-2"
+            class="form-control me-2 border-0"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
           </div>
           <div>
-            <button class="btn bk-tertiary-bg bk-white" type="submit">
+            <button class="btn bk-tertiary-bg bk-white rounded-pill" type="submit">
             Search
             </button>
           </div>
@@ -45,7 +45,7 @@
 
                 </div> -->
         <ul class="navbar-nav my-2 mb-lg-0 w-100 d-flex justify-content-end flex-md-row justify-content-md-start">
-          <li class="nav-item">
+          <li class="nav-item d-flex justify-content-between me-5 me-lg-3">
             <router-link
               ref="navLink"
               id="TheHome"
@@ -56,7 +56,7 @@
               <unicon name="estate"></unicon> Home
             </router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex justify-content-between me-5 me-lg-3">
             <router-link
               ref="navLink"
               id="TheShops"
@@ -67,7 +67,7 @@
               <unicon name="shop"></unicon> Shops
             </router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex justify-content-between me-5 me-lg-3">
             <router-link
               ref="navLink"
               id="TheProducts"
@@ -78,7 +78,7 @@
               <unicon name="shopping-bag"></unicon> Products
             </router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex justify-content-between me-5 me-lg-3">
             <router-link
               ref="navLink"
               id="TheFoods"
@@ -89,7 +89,7 @@
               <unicon name="restaurant"></unicon> Food
             </router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex justify-content-between me-5 me-lg-3">
             <router-link
               class="nav-link"
               style="gap: 0.5rem"
@@ -99,7 +99,7 @@
             >
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item d-flex justify-content-between me-5 me-lg-3">
             <router-link
               :to="{ name: 'TheWishlist' }"
               class="nav-link"
