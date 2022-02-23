@@ -36,7 +36,7 @@
           />
           </div>
           <div>
-            <button class="btn bk-tertiary-bg bk-white rounded-pill" type="submit">
+            <button class="btn bk-tertiary-bg bk-white rounded-pill btn-lg" type="submit">
             Search
             </button>
           </div>
@@ -117,16 +117,6 @@
 <script setup></script>
 
 <style scoped>
-.the__flex {
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-}
-
-/* .the__flex > * {
-  flex: 1;
-} */
-
 .top-bar {
   width: 100%;
   height: 4rem;
