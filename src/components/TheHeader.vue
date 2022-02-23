@@ -4,18 +4,16 @@
       <p class="bk-white">
         <marquee behavior="" direction=""
           >A <span class="bk-accent">marketing pitch</span> in one line goes
-          here.</marquee
-        >
+          here.</marquee>
       </p>
     </div>
     <nav class="card navbar navbar-expand-lg navbar-light bg-light w-100">
-      <div
-        class="container-fluid d-flex justify-content-between w-100 the__flex"
-      >
+      <div class="container-fluid w-100 d-flex flex-column flex-md-row">
         <div class="navbar-brand">
           <img src="../assets/logo.svg" alt="baabkubwa logo" width="350" />
         </div>
-        <button
+        <div class="d-block d-md-none w-100">
+          <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -26,22 +24,27 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        </div>
 
-        <form class="d-flex">
-          <input
+        <form class="w-100 d-none d-md-flex flex-md-row justify-content-md-start justify-content-lg-center">
+          <div>
+            <input
             class="form-control me-2"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn bk-tertiary-bg bk-white" type="submit">
+          </div>
+          <div>
+            <button class="btn bk-tertiary-bg bk-white" type="submit">
             Search
-          </button>
+            </button>
+          </div>
         </form>
         <!-- <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
 
                 </div> -->
-        <ul class="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-end">
+        <ul class="navbar-nav my-2 mb-lg-0 w-100 d-flex justify-content-end flex-md-row justify-content-md-start">
           <li class="nav-item">
             <router-link
               ref="navLink"
@@ -88,7 +91,7 @@
           </li>
           <li class="nav-item">
             <router-link
-              class="nav-link d-flex align-items-center justify-content-between"
+              class="nav-link"
               style="gap: 0.5rem"
               :to="{ name: 'TheCart' }"
             >
@@ -99,7 +102,7 @@
           <li class="nav-item">
             <router-link
               :to="{ name: 'TheWishlist' }"
-              class="nav-link d-flex align-items-center justify-content-between"
+              class="nav-link"
               style="gap: 0.5rem"
             >
               <unicon name="heart" /> Wishlist
@@ -120,9 +123,9 @@
   align-items: center;
 }
 
-.the__flex > * {
+/* .the__flex > * {
   flex: 1;
-}
+} */
 
 .top-bar {
   width: 100%;

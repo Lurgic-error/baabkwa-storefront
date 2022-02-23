@@ -52,7 +52,7 @@ ul {
 
 /* Create the caret/arrow with a unicode, and style it */
 .caret::before {
-  content: "\25B6";
+  content: "\1F812";
   color: #1b3764;
   display: inline-block;
   margin-right: 6px;
