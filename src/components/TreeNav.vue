@@ -1,5 +1,5 @@
 <template>
-  <div id="myUL" class="card">
+  <div id="myUL" class="card d-sm-none d-lg-block">
     <List
       :data="['pre-order', 'Vegan', 'Fast snack', 'Lunch', 'Dinner']"
       list-name="FOOD"
